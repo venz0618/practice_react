@@ -1,16 +1,16 @@
 import React from 'react'
 import pic from '../pic.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import {MdEmail} from 'react-icons/md';
 function Info() {
   return (
-    <Info>
+    <div>
        <img src={pic} alt='pic' className='info--image'/>
        <h2 className='info--name'>Venivici Carna</h2>
        <h3 className='info--title'>Frontend Developer</h3>
        <p className='info--link'>venzcarna.website</p>
-       <button className='info--btn'><FontAwesomeIcon icon="fa-solid fa-envelope" /> Email</button>
-    </Info>
+       <button className='info--btn'><MdEmail/> Email</button>
+       <button className='info--btn1'>LinkedIn</button>
+    </div>
   )
 }
 

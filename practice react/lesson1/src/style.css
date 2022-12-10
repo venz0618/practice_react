@@ -82,3 +82,144 @@ body{
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
 }
+
+.info--btn1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+
+    width: 115px;
+    height: 36px;
+    margin-left: 170px;
+    margin-top: -36px;
+    background: #297FE5;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.about--title{
+    
+    width: 242.71px;
+    height: 21px;
+    
+    margin-left: 35px ;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #F5F5F5;
+}
+.about--text{
+    
+    width: 247px;
+    height: 61px;
+    margin-left: 35px;
+    margin-top: -10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+
+
+    color: #DCDCDC;
+
+}
+.interest--title{
+    
+    width: 242.71px;
+    height: 21px;
+    margin-left: 35px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #F5F5F5;
+
+}
+
+.interest--text{
+   
+    width: 247px;
+    height: 61px;
+    margin-left: 35px;
+    margin-top: -10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+
+
+    color: #DCDCDC;
+
+}
+.footer{
+    width: 317px;
+    height: 64px;
+    
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+.footer > .twitter{
+    position: absolute;
+    left: 23.36%;
+    right: 61.09%;
+    top: 93.95%;
+    bottom: 7.37%;
+    /* margin-left: 73px;
+    margin-top: 20px;
+    margin-bottom: 19px; */
+
+    background: #918E9B;
+    background-position: 100px 200px;
+}
+.fb{
+    position: absolute;
+    left: 37.27%;
+    right: 52.18%;
+    top: 93.95%;
+    bottom: 7.37%;
+    /* margin-left: 120px;
+    margin-top: 20px;
+    margin-bottom: 19px; */
+
+    background: #918E9B;
+}
+.insta{
+    position: absolute;
+    left: 52.18%;
+    right: 43.27%;
+    top: 93.95%;
+    bottom: 7.37%;
+
+    background: #918E9B;
+}
+
+.git{
+    position: absolute;
+    left: 68%;
+    right: 34.45%;
+    top: 93.95%;
+    bottom: 7.32%;
+
+    background: #918E9B;
+}
